@@ -76,12 +76,11 @@ WSGI_APPLICATION = 'blog.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'HOST': '127.0.0.1',#数据库主机
+        'HOST': '127.0.0.1',
         'PORT': 3306,
         'USER': 'wll',
         'PASSWORD': '123456',
-        'NAME': 'blog'
-        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'NAME': 'blog',
     }
 }
 
